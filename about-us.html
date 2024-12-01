@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ABOUT US PAGE </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    }
+    
+    body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: silver;
+    }
+
+    .header a {
+    position: relative;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 45px;
+    }
+
+    .header a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: white;
+    border-radius: 5px;
+    transform: translateY(10px);
+    transition: .5s;
+    opacity: 0;
+    }
+
+    .header a:hover::after {
+    transform: translateY(0);
+    opacity: 1;
+    }
+
+    .header .button-login  {
+    width: 70px;
+    height: 20px;
+    background: transparent;
+    border: white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+    margin-right: 45px;
+    }
+
+    .header .button-login:hover {
+    background: silver;
+    color: black;
+    }
+
+    .header {
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    z-index: 99;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    border-radius: 15px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    }
+
+    .header .content {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 500ms;
+    color: red;
+    font-size: 30px;
+    user-select: none;
+    }
+
+    .header .content:hover {
+    color: #4beaff;
+    transition: 500ms;
+    }
+
+    h1 {
+    font-weight: 600;
+    font-size: 50px;
+    }
+
+    h4 {
+    color: red;
+    }
+
+    table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    }
+        
+    table, th, td {
+    border: 5px solid black;
+    }
+        
+    th, td {
+    padding: 12px;
+    text-align: center;
+    }
+        
+    th {
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    }
+        
+    tr:nth-child(even) {
+    background-color: yellow;
+    }
+        
+    tr:hover {
+    background-color: lightyellow;
+    }
+
+    tr:nth-child(odd) {
+    background-color: lightyellow;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p class="content">ZIQ</p>
+        <a href="homepage.html">HOME</a>
+        <a href="product.html">PRODUCTS & CART</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="about-us.html">ABOUT US</a>
+        <a href="login.html" class="button-login">LOGIN</a>
+        <a href="register.html" class="button-login">SIGN UP</a>
+    </div>   
+    <h1>OUR GENERAL SERVICE</h1><br>
+    <h4>WE ARE SELLING ITEMS AS BELOW !!!</h4>
+    <table>
+        <thead>
+            <tr>
+                <th><b>NUMBER</b></th>
+                <th><b>TYPE OF ACCESSORIES</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>WIRELESS MOUSE</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GAMING DESKTOP</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>GAMING MONITOR</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>LAPTOP</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>WIRELESS KEYBOARD</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>KEYBOARD</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>MOUSE</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+</body>

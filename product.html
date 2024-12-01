@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PRODUCTS & CART PAGE </title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <p class="content">ZIQ</p>
+        <a href="homepage.html">HOME</a>
+        <a href="product.html">PRODUCTS & CART</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="login.html" class="button-login">LOGIN</a>
+        <a href="register.html" class="button-login">SIGN UP</a>
+        <div class="cart"><i class="fa fa-shopping-cart"></i><p id="count">0</p></div>
+    </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>YOUR CART</p></div>
+            <div id="cartItem">Your cart is empty.<br>You can pick your desire accessories.</div>
+            <div class="foot">
+                <h3>TOTAL</h3>
+                <h2 id="total">RM 0.00</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="product.js"></script>
+</body>
+</html>

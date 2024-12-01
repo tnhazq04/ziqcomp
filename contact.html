@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CONTACT PAGE </title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+        font-size: 18px;
+        }
+        
+        body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: black;
+        }
+    
+        .header a {
+        position: relative;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-right: 45px;
+        }
+    
+        .header a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 2px;
+        background: white;
+        border-radius: 5px;
+        transform: translateY(10px);
+        transition: .5s;
+        opacity: 0;
+        }
+    
+        .header a:hover::after {
+        transform: translateY(0);
+        opacity: 1;
+        }
+    
+        .header .button-login  {
+        width: 70px;
+        height: 20px;
+        background: transparent;
+        border: white;
+        outline: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        font-weight: 500;
+        transition: .5s;
+        margin-right: 45px;
+        }
+    
+        .header .button-login:hover {
+        background: silver;
+        color: black;
+        }
+    
+        .header {
+        top: 0;
+        left: 0;
+        padding: 20px 100px;
+        z-index: 99;
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        border-radius: 15px;
+        margin: 30px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        }
+    
+        .header .content {
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition: 500ms;
+        color: red;
+        font-size: 30px;
+        user-select: none;
+        }
+    
+        .header .content:hover {
+        color: #4beaff;
+        transition: 500ms;
+        }
+
+        .container {
+         position: absolute;
+        width: 75%;
+        height: 550px;
+        background: url('background3.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        margin-top: 20px;
+        }
+
+        .container .text-sci {
+        width: 63%;
+        height: 100%;
+        background: yellowgreen;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 80px;
+        color: white;
+        }
+
+        .container .logreg-box {
+        width: calc(100% - 58%);
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+
+        .text-sci h2 {
+        font-size: 40px;
+        line-height: 1;
+        color: blue;
+        }
+
+        .text-sci h2 span {
+        font-size: 25px;
+        color: black;
+        }
+
+        .text-sci h2 span:hover {
+        color: silver;
+        transition: .5s;
+        }
+
+        .text-sci h3 {
+        font-size: 20px;
+        margin: 20px 0;
+        text-align: center;
+        color: maroon;
+        }
+
+        .text-sci h3:hover {
+        color: red;
+        transition: .5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p class="content">ZIQ</p>
+        <a href="homepage.html">HOME</a>
+        <a href="product.html">PRODUCTS & CART</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="about-us.html">ABOUT US</a>
+        <a href="login.html" class="button-login">LOGIN</a>
+        <a href="register.html" class="button-login">SIGN UP</a>
+    </div>
+    <div class="container">
+        <div class="text-sci">
+            <h2>HI,<br>WELCOME!<br><span>THIS IS INFORMATION ABOUT THIS COMPANY</span></h2>
+            <h3><br>TUAN HAZIQ YAMIN BIN TUAN MAZLAN<br><br>2024532897 (+60-18 4041611)<br><br>RCDCS2512A (CSC574)<br></h3>
+        </div>
+    </div>    
+
+</body>
+</html>

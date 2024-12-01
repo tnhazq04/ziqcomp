@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> REGISTRATION PAGE </title>
+    <link rel="stylesheet" href="registerstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">REGISTRATION</div>
+        <form action="homepage.html" method="POST">
+            <a href="homepage.html" method="POST">
+            <span class="fa fa-close" style="font-size:36px"></span>
+            </a>
+            <div class="user-detail">
+                <div class="input-box">
+                    <span class="details">FULL NAME :</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">USERNAME :</span>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">EMAIL :</span>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">PHONE NUMBER :</span>
+                    <input type="tel" placeholder="Enter your number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">PASSWORD :</span>
+                    <input type="password" placeholder="Enter your password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">CONFIRM PASSWORD :</span>
+                    <input type="password" placeholder="Confirm your password" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <span><b>GENDER :</b></span><br><br>
+                <input type="radio" name="gender" value="male" > Male&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="female"> Female&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="others" > Prefer not to say<br><br>
+            </div>
+            <div class="button">
+                <a href="homepage.html" class="button">
+                <input type="submit" value="SIGN UP">
+                </a>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
